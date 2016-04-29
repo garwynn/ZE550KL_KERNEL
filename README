@@ -1,6 +1,6 @@
-How to build zenfone kernel
+============\\\\\How to build zenfone kernel/////============
 
-Sync Up the source
+Sync Up this repo.
 Set up uber-4.9 toolchain for aarch64/arm64.
 Open Terminal in kernel folder.
 Add the following to .bashrc

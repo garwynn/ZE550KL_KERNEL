@@ -424,7 +424,7 @@ int fts_ctpm_fw_upgrade_with_i_file(struct i2c_client *client)
 			}
 			break;	
 		case ASUS_ZE550KL:
-		default:
+		default:;
 			#ifdef ZE550KL_HD
 			if(ftxxxx_ts->tp_id_value1==1&&ftxxxx_ts->tp_id_value2==1)
 			{	
@@ -651,7 +651,7 @@ int fts_ctpm_auto_upgrade(struct i2c_client *client)
 			}
 			break;	
 		case ASUS_ZE550KL:
-		default:
+		default:;
 			#ifdef ZE550KL_HD
 			uc_host_project_id=ZE550KL;
 			if(ftxxxx_ts->tp_id_value1==1&&ftxxxx_ts->tp_id_value2==1)
